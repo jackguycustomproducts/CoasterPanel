@@ -21,26 +21,26 @@ computer it is connected to.
 
 The lighting states are as follows:
   Dispatch Light(s)
-    Blinking: when not e-stopped, key on, and all function buttons/switches are in their default/off states
-    Off: when e-stopped, any function operator is turned on, or when the key switch is locked
+    Blinking: when not e-stopped, key on, and all function buttons/switches are in their default/off states,
+    Off: when e-stopped, any function operator is turned on, or when the key switch is locked,
     Timed-Off: after dispatch is activated
 
   A,B,C Lights
-    Blinking: when the function is in its off state
-    On Solid: when the function is in its on state
-    Off: when e-stopped or the key switch is locked
-    Timed-Off: after dispatch is pressed
+    Blinking: when the function is in its off state,
+    On Solid: when the function is in its on state,
+    Off: when e-stopped or the key switch is locked,
+    Timed-Off: after dispatch is pressed,
 
   E-Stop Light
-    On Sold: when e-stop is off
+    On Sold: when e-stop is off,
     Blinking: when e-stop is on
   
   Power Light
-    On: when key switch is unlocked
+    On: when key switch is unlocked,
     Off: when key switch is locked
     
   Reset Light
-    On: when e-stopped and the estop button is in the default position
+    On: when e-stopped and the estop button is in the default position,
     Off: when key switch is locked
     
 Inputs and Outputs
@@ -49,17 +49,17 @@ The code is designed to have the following inputs:
 (each input can be configured for dual-button enabling [where two buttons have to be pressed together]
 using a using a series circuit)
 
-  1 Dispatch
-  3 (A,B,C) momentary function push buttons
-  3 (A,B,C) two-way (on/off) function selector switches
-  1 E-Stop momentary push button
-  1 E-Stop switch
-  1 Lock/Unlock two-way (on/off) keyed or non-keyed selector switch
+  1 Dispatch,
+  3 (A,B,C) momentary function push buttons,
+  3 (A,B,C) two-way (on/off) function selector switches,
+  1 E-Stop momentary push button,
+  1 E-Stop switch,
+  1 Lock/Unlock two-way (on/off) keyed or non-keyed selector switch,
 
 The code is designed to have the following outputs:
 (each output can be wired to multiple lights/relays using a parallel circuit)
-  1 Dispatch light
-  3 Function button lights, one assigned for each function button
-  1 E-stop light
-  1 Power light
+  1 Dispatch light,
+  3 Function button lights, one assigned for each function button,
+  1 E-stop light,
+  1 Power light,
   1 Reset light
